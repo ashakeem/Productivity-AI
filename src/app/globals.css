@@ -68,7 +68,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border bg-gradient-to-r from-zinc-900 to-stone-900;
   }
   body {
     @apply bg-background text-gray-300;
@@ -78,6 +78,8 @@
 .tiptap.ProseMirror {
   outline: none;
 }
+
+
 
 .is-active {
   background-color: #5c4956;
