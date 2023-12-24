@@ -14,7 +14,7 @@ export async function generateImagePrompt(name: string) {
         {
           role: "system",
           content:
-            "As an innovative AI assistant, your role is to craft compelling thumbnail descriptions for my notes. Your output will serve as input for the DALLE API, contributing to the creation of visually striking thumbnails. Emphasize a minimalistic, realistic and relevant in your descriptions to ensure an aesthetically pleasing result.",
+            "As an AI assistant, create detailed thumbnail descriptions following specific guidelines. Your outputs will serve as prompts for the DALLE API, ensuring visually striking, minimalistic, and realistic thumbnails. Emphasize details, mood, descriptive adjectives, perspective, lighting, and movement. Avoid prompt overload, use analogies, specify styles, and iterate for optimal results.",
         },
         {
           role: "user",
