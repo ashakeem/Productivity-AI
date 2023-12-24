@@ -102,7 +102,7 @@ const TipTapEditor = ({ workspace }: Props) => {
         <EditorContent editor={editor} />
       </div>
       <div className="h-4"></div>
-      <span className="text-sm px-3 py-3 border border-gray-900 rounded-md">
+      <span className="text-sm px-3 py-3 ">
         Hint: Press
         <kbd className="px-1 py-1 text-xs font-semibold mr-1 ml-1 text-purple-400 ">
           Shift + N 
