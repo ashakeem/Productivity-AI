@@ -43,7 +43,7 @@ const WorkspacePage = async ({ params: { workspaceId } }: Props) => {
       <div className="max-w-4xl mx-auto">
         <div className="border shadow-xl border-zinc-700 rounded-lg p-4 flex items-center">
           <Link href="/dashboard">
-            <Button className="bg-purple-700" size="sm">
+            <Button className="bg-purple-700 px-2 py-1" >
               Return
             </Button>
           </Link>
@@ -55,7 +55,7 @@ const WorkspacePage = async ({ params: { workspaceId } }: Props) => {
           <span className="text-purple-500 font-semibold">
             {workspace.name}
           </span>
-          <div className="ml-auto">
+          <div className="ml-auto ">
             <DeleteButton workspaceId={workspace.id} />
           </div>
         </div>

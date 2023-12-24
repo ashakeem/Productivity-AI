@@ -88,13 +88,13 @@ const TipTapEditor = ({ workspace }: Props) => {
 
   return (
     <>
-      <div className="flex">
+      <div className="flex flex-wrap mt-1">
         {editor && <TipTapMenuBar editor={editor} />}
 
-        <Button disabled className="bg-purple-700">
+        <Button disabled className="bg-purple-700 px-2 py-1">
           {saveWorkspace.isPending ? "Saving...." : "Saved🫡"}
         </Button>
-        <Button onClick={aiHandleSubmit} className="bg-purple-700 ml-2">
+        <Button onClick={aiHandleSubmit} className="bg-purple-700 ml-2 px-2 py-1">
           AI autocomplete 👨‍💼
         </Button>
       </div>

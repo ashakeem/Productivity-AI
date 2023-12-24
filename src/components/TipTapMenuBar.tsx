@@ -20,7 +20,7 @@ import {
 
 const TipTapMenuBar = ({ editor }: { editor: Editor }) => {
   return (
-    <div className="flex flex-wrap gap-2 text-purple-600 mr-4">
+    <div className="flex flex-wrap gap-2 text-purple-600 mr-4 ">
       <button
         onClick={() => editor.chain().focus().toggleBold().run()}
         disabled={!editor.can().chain().focus().toggleBold().run()}

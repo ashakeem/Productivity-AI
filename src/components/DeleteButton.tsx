@@ -23,7 +23,7 @@ const DeleteButton = ({ workspaceId }: Props) => {
   return (
     <Button
       variant={"destructive"}
-      size="sm"
+      className="py-2 px-2"
       disabled={deleteWorkspace.isPending}
       onClick={() => {
         const confirm = window.confirm(
