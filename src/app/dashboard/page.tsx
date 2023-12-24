@@ -55,7 +55,7 @@ const DashboardPage = async (props: Props) => {
           {workspaces.map((workspace) => {
             return (
               <a href={`/workspace/${workspace.id}`} key={workspace.id}>
-                <div className="border border-stone-300 rounded-lg overflow-hidden flex flex-col hover:shadow-xl transition hover:-translate-y-1">
+                <div className="border-dashed border mt-3 border-purple-700 rounded-lg overflow-hidden flex flex-col hover:shadow-xl transition hover:-translate-y-1">
                   <Image
                     width={400}
                     height={200}

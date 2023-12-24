@@ -52,10 +52,10 @@ const WorkspacePage = async ({ params: { workspaceId } }: Props) => {
             {user.firstName} {user.lastName}
           </span>
           <span className="inline-block mx-1 text-gray-400">/</span>
-          <span className="text-purple-500 font-semibold">
+          <span className="text-purple-500 font-semibold mr-3">
             {workspace.name}
           </span>
-          <div className="ml-auto ">
+          <div className="ml-auto  ">
             <DeleteButton workspaceId={workspace.id} />
           </div>
         </div>

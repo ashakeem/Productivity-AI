@@ -59,7 +59,7 @@ const CreateWorkspaceDialog = () => {
   return (
     <Dialog>
       <DialogTrigger>
-        <div className="border-dashed border-2 flex border-purple-700 h-full rounded-lg items-center justify-center sm:flex-col hover:shadow-xl transition hover:-translate-y-1 flex-row p-4">
+        <div className="border-dashed border-2 flex border-purple-700 mt-3 h-full rounded-lg items-center justify-center sm:flex-col hover:shadow-xl transition hover:-translate-y-1 flex-row p-4">
           <Briefcase className="w-6 mr-2 h-6 text-purple-700" strokeWidth={3} />
           <h2 className="font-semibold text-purple-700 sm:mt-2">
             New Workspace

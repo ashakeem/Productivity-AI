@@ -92,27 +92,27 @@ const TipTapEditor = ({ workspace }: Props) => {
         {editor && <TipTapMenuBar editor={editor} />}
 
         <div className="flex justify-center  flex-row mt-3 ">
-          <Button disabled className="bg-purple-700 px-2 py-1">
-            {saveWorkspace.isPending ? "Saving...." : "Saved🫡"}
+          <Button disabled className="px-2 py-1">
+            {saveWorkspace.isPending ? "Saving...." : "Saved"}
           </Button>
           <Button
             onClick={aiHandleSubmit}
             className="bg-purple-700 ml-2 px-2 py-1"
           >
-            AI autocomplete 👨‍💼
+            AI autocomplete
           </Button>
         </div>
       </div>
       <div className="prose prose-invert prose-sm w-full mt-4">
-        <EditorContent editor={editor} />
+        <EditorContent  editor={editor} />
       </div>
       <div className="h-4"></div>
       <span className="text-sm px-3 py-3 ">
         Hint: Press
         <kbd className="px-1 py-1 text-xs font-semibold mr-1 ml-1 text-purple-400 ">
-          Shift + N
+          Shift + N (Desktop)
         </kbd>{" "}
-        for AI autocomplete 👀
+        for AI autocomplete
       </span>
     </>
   );
