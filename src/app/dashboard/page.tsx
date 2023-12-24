@@ -63,7 +63,7 @@ const DashboardPage = async (props: Props) => {
                     src={workspace.imageUrl || ""}
                   />
                   <div className="p-4">
-                    <h3 className="text-xl font-semibold text-gray-900">
+                    <h3 className="text-xl font-semibold text-gray-300">
                       {workspace.name}
                     </h3>
                     <div className="h-1"></div>
