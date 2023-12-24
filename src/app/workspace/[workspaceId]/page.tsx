@@ -39,7 +39,7 @@ const WorkspacePage = async ({ params: { workspaceId } }: Props) => {
   const workspace = workspaces[0];
 
   return (
-    <div className=" bg-gradient-to-r position: fixed min-h-screen from-zinc-900 to-stone-900 p-8">
+    <div className=" bg-gradient-to-r min-h-screen from-zinc-900 to-stone-900 p-8">
       <div className="max-w-4xl mx-auto">
         <div className="border shadow-xl border-zinc-700 rounded-lg p-4 flex items-center">
           <Link href="/dashboard">
