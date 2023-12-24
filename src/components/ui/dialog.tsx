@@ -25,7 +25,7 @@ const DialogOverlay = React.forwardRef<
       className
     )}
     style={{
-      background: 'linear-gradient(90deg, rgba(54,10,49,0.6) 0%, rgba(40,3,38,0.6) 64%)', // Adjust the rgba values and transparency
+      background: 'linear-gradient(90deg, rgba(54,10,49,0.7) 0%, rgba(40,3,38,1) 64%)', // Adjust the rgba values and transparency
     }}
     {...props}
   />
