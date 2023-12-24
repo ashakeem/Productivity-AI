@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <div className="text-gray-300 bg-gradient-to-r  min-h-screen from-zinc-900 to-stone-900">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <h1 className="font-semibold text-7xl text-center">
-          AI <span className="text-purple-700 font-b0ld">productivity </span>{" "}
+        <h1 className="font-semibold md:text-8xl text-5xl text-center">
+          AI <span className="text-purple-700 font-bold">productivity</span>{" "}
           assistant.
         </h1>
         <div className="mt-4">
-          <h2 className="font-semibold text-3xl text-center text-gray-400 ">
+          <h2 className="font-semibold md:text-3xl text-2xl text-center text-gray-400 ">
             <TypewriterTitle />
           </h2>
           <div className="mt-8"></div>
