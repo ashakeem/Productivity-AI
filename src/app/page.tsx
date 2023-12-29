@@ -1,6 +1,7 @@
 import TypewriterTitle from "@/components/TypewriterTitle";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Clapperboard } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -20,7 +21,16 @@ export default function Home() {
             <Link href="/dashboard">
               <Button className="bg-purple-700">
                 Get Started
-                <ArrowRight className="ml-2 w-5 h-5" strokeWidth={3} />
+                <ArrowRight className="ml-1 w-5 h-5" strokeWidth={3} />
+              </Button>
+            </Link>
+            <Link
+              href="https://www.loom.com/embed/1fa14375b11841b18720ef28ad3f8768?sid=e24d366f-7d3c-4668-8bfd-76200af3592e"
+              target="_blank"
+            >
+              <Button className="bg-red-700 ml-4">
+                Demo
+                <Clapperboard className="ml-2 w-5 h-5" strokeWidth={3} />
               </Button>
             </Link>
           </div>
