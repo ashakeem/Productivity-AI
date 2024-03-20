@@ -9,7 +9,7 @@ export default function Home() {
     <div className="text-gray-300 bg-gradient-to-r  min-h-screen from-zinc-900 to-stone-900">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <h1 className="font-semibold md:text-8xl text-5xl text-center">
-          Jarrod <span className="text-purple-700 font-bold">productivity</span>{" "}
+          AI <span className="text-purple-700 font-bold">productivity</span>{" "}
           assistant.
         </h1>
         <div className="mt-4">
